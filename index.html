@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Weather</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- Input field to enter the city name -->
+      <input type="text" id="city" name="city" placeholder="Enter city name" />
+      <!-- Button to trigger weather check -->
+      <button type="button">Check Weather</button>
+
+      <!-- Container to display weather information -->
+      <div class="weather-info">
+        <h4 class="font-bold weather-title">Weather Information</h4>
+        <h6 class="font-medium weather-subtitle">
+          City:
+          <span class="city-name"></span>
+        </h6>
+
+        <!-- Container for weather data -->
+        <div class="weather-data flex-container">
+          <div class="mb-3">
+            <p class="data-title">Temperature (°C)</p>
+            <p class="data-value temperature"></p>
+          </div>
+
+          <!-- Container for condition data -->
+          <div class="mb-3">
+            <p class="data-title">Condition</p>
+            <p class="data-value condition"></p>
+          </div>
+
+          <!-- Container for humidity data -->
+          <div>
+            <p class="data-title">Humidity</p>
+            <p class="data-value humidity"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script to include jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- Script to include Sweet Alert library -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Script to include custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
