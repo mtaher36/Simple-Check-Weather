@@ -8,13 +8,13 @@
 
 ## Tech
 
-Motherwell-Edu uses a number of open source projects to work properly:
+Simple Check Weather uses a number of open source projects to work properly:
 
 - [HTML] - The standard markup language for creating web pages and web applications.
 - [Vanilla CSS] - Plain CSS without the use of any preprocessor or framework, providing basic styling capabilities.
 - [vs Code](https://code.visualstudio.com/) - An advanced web-based text editor developed by Microsoft, widely used by developers for its features and extensions.
-- [jQuery] - A fast, small, and feature-rich JavaScript library that simplifies various tasks like HTML document traversal and manipulation, event handling, and animation.
-- [AJAX for API requests](https://wowjs.uk) - Asynchronous JavaScript and XML (AJAX) technique used to make requests to the server without reloading the entire page, often used for fetching data from APIs in web development.
+- [jQuery](https://jquery.com/) - A fast, small, and feature-rich JavaScript library that simplifies various tasks like HTML document traversal and manipulation, event handling, and animation.
+- [AJAX for API requests](https://api.jquery.com/Jquery.ajax/) - Asynchronous JavaScript and XML (AJAX) technique used to make requests to the server without reloading the entire page, often used for fetching data from APIs in web development.
 - [markdown-it] - A Markdown parser implemented in JavaScript, designed to be fast and easy to extend for converting Markdown syntax into HTML markup.
 
 ## API Used
